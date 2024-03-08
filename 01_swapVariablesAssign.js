@@ -1,0 +1,27 @@
+console.log("---Step 1---");
+console.log("---WAP To Swap Two Variable Using Third Variable---");
+var name1="Sweety";
+var name2="Cutie";
+console.log("-----Before Swapping-----");
+console.log("name1::",name1,"name2::",name2);
+console.log("----- After Swapping-----");
+var temp;
+temp=name1;
+name1=name2;
+name2=temp;
+console.log("name1::",name1,"name2::",name2);
+console.log("---Step 2---");
+console.log("---WAP To Swap Three Variable Using Third Variable---");
+var n1=100;
+var n2=200;
+var n3=300;
+console.log("-----Before Swapping-----");
+console.log("n1::",n1,"n2::",n2,"n3::",n3);
+console.log("----- After Swapping-----");
+
+var temp;
+temp=n1;
+n1=n2;
+n2=n3;
+n3=temp;
+console.log("n1::",n1,"n2::",n2,"n3::",n3);
