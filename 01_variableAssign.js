@@ -7,7 +7,7 @@ fullName="Yogita N.Pore";
 console.log("Full Name variable value after Updation:", fullName);
 console.log("---Step 2---");
 var myLove="I Love Only JS";
-console.log("myLove");
+console.log("myLove::",myLove);
 console.log("---Step 3---");
 var firstName="Yogita";
 var lastName="Pore";
