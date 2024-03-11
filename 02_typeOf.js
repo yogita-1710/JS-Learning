@@ -18,7 +18,7 @@ console.log("Datatype of  variable isWorking before initialization::", typeof (i
 var isWorking = true;
 console.log("isWorking after initialization::", isWorking);
 console.log("Datatype of  variable isWorking after initialization::", typeof (isWorking));
-console.log("=========step 3==================");
+console.log("=========step 4==================");
 var totalCount = "Hundred and Seven";
 console.log("totalCount before initialization::", totalCount);
 console.log("Datatype of  variable totalCount before updation::", typeof (totalCount));
