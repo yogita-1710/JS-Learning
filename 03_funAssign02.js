@@ -1,6 +1,7 @@
 
 function bankDetails(bankName,accountNum,location,pinCode){
-    console.log("Bank Name is::",bankName,"Account Number is::",accountNum,"Location is::",location,"Pincode is",pinCode);
+    // console.log("Bank Name is::",bankName,"in which Account Number is::",accountNum,"Banks Location is::",location,"Pincode is",pinCode);
+    console.log("Bank Name is::",bankName,"in which Account Number is::",accountNum,"Banks Location is::",location,"Pincode is",pinCode);
 }
 bankDetails("CITY Bank", 3456782345, 'Pune', 431202);
 bankDetails("Axis Bank", 7856782345, 'Mumbai', 441202); 
