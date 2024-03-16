@@ -10,3 +10,11 @@ console.log("First name:", firstName);
 
 firstName = "Shruti";
 console.log("First name:", firstName);
+
+console.log("===Variable Re-declaration===");
+var pincode="411 057";
+console.log(pincode);
+pincode="411 041"  // variable update
+console.log(pincode);
+var pincode="411 011"; // variable redeclation
+console.log(pincode);
