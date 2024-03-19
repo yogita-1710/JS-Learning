@@ -16,10 +16,10 @@ var address="Pune";
 var pincode="411 011";
 var gender="Female";
 var isMarried="Yes";
-console.log("First Name:",firstName);console.log("Last Name:",lastName);
+console.log("First Name:",firstName);
+console.log("Last Name:",lastName);
 console.log("Age:",age);
 console.log("Address:",address);
 console.log("Pincode:",pincode);
 console.log("Gender:",gender);
-
 console.log("Married/Unmarried :",isMarried);

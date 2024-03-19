@@ -20,3 +20,4 @@ voteEligible(200);
 voteEligible(0);
 voteEligible(undefined);
 voteEligible(null);
+voteEligible("Twenty");
