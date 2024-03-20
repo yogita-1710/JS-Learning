@@ -16,13 +16,13 @@ for (let index =1; index <= 30; index=index+2) {
 console.log("count of odd numbers",count);
 console.log(`4_WAP to find first  10 even numbers`);
 var count=0;
-for (let index =0; index < 20; index++) {
+for (let index =3; index < 20; index++) {
     if (index%2==0) {
         console.log(index);
         count++;
     }
 }
-console.log("count of odd numbers",count);
+console.log("count of even numbers",count);
 console.log(`5_WAP to print table of 5 like-->5 10 15 20 25 .... 50`);
 for (let index = 1; index <=10; index++) {
    console.log(5*index);
