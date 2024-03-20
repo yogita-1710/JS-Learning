@@ -14,7 +14,7 @@ console.log(`Total number of Vowels in string is :: ${count}`);
 console.log(`------second step----`);
 function sumOfCube() {
     var sum = 0;
-    for (num = 0; num < 5; num++) {
+    for (num = 1; num <=5; num++) {
         var sum = sum + num * num * num;
     }
     console.log(`sum of cube::${sum}`);
