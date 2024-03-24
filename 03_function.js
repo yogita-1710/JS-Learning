@@ -20,10 +20,11 @@ function subtract(numOne, numTwo){
     console.log("Arguments: ", numOne,numTwo );
     var result = numOne - numTwo;
     return result;
+    console.log("I am Bahubali"); // unreachable code
 }
 var returnValue = subtract(9, 4);
 console.log("Result of subtraction is: ", returnValue);
 
-var returnValue = subtract(99, 42);//re-declaration
+var returnValue = subtract(99, 42);//re-declaration of variable returnValue
 console.log("Result of subtraction is: ", returnValue);
 

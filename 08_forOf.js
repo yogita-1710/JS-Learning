@@ -1,6 +1,8 @@
 console.log(`========================================`);
 var friendList = ["Jenny", "Bill", "Andy", "Elon"];
 var count=0;
+
+
 for (let element of friendList) {
     console.log(element);  
     for(i=0;i<element.length;i++){

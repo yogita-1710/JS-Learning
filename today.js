@@ -1,30 +1,26 @@
-// let age=30;
-// let age=25;
-// console.log(age);
-// var -->function
-// let and const -->block
+// var result;
+// result=Number(true); // Boolean to Number
+// console.log(result);
 
+// var result1;
+// result1=Number("100"); // Numeric string to Number
+// console.log(result1);
 
-// console.log(`i:${i}`);
-// let i=10;
+// var result2;
+// result2=Number("yogita");//String to Number-->NAN
+// console.log(result2);
 
- //let arr1=[10,20,30,40,50,60];
-// let length=arr1.length;
-// for (let index = 0; index < arr1.length; index++) {
-//     var element = arr1[index];
-//     var string = "";
-//     element=string + element;
-//     console.log(element);
-// }
-// let arr1=[10,20,30,40,50,60];
-// var index=arr1.indexOf(70);
-// console.log(index);
-let arr1=[10,20,30,40,50,60];
-// console.log(arr1.includes(70)); 
-arr1[3]=35;
-console.log(arr1);
+// var result3;
+// result3=Number(undefined);
+// console.log(result3);
 
+var result4=null;
+var result6=undefined;
+console.log(result4);
 
+// result4=Number(null);
+// console.log(result4);
 
-
-
+// var result5;
+// result5=Number(NaN);
+// console.log(result5);
