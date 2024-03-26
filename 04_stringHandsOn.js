@@ -1,5 +1,5 @@
 function stringHandsOn() {
-    var sentence = "  Hey you are doing good. keep it up  ";
+    var sentence = "   Hey you are doing good. keep it up   ";
     console.log(`step 1:The given string is :${sentence}`);
 
     var sentenceLength = sentence.length;
@@ -7,13 +7,13 @@ function stringHandsOn() {
 
     var sentenceTrim = sentence.trim();
     var sentenceNewLength = sentenceTrim.length;
-    console.log(`step 3:The length of the string after triming :${sentenceNewLength}`);
+    console.log(`step 3:The length of the string after trimming :${sentenceNewLength}`);
 
     console.log(`Step 4:Total number of extra spaces removed in step 3 are :${sentenceLength - sentenceNewLength}`);
 
     var firstChar = sentenceTrim.charAt(0);
     var lastChar = sentenceTrim.charAt(sentenceNewLength - 1);
-    console.log(`Step 5:First character after trimming is :${firstChar} and Last character after triming is :${lastChar} after step 3`);
+    console.log(`Step 5:First character after trimming is :${firstChar} and Last character after trimming is :${lastChar} after step 3`);
     var resultValue = sentenceTrim.split(" ")
     //  console.log(resultValue);
     var totalWords = resultValue.length;
