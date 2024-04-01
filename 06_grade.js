@@ -1,10 +1,10 @@
 function gradeCalculation(marks) {
     // invalid inputs
-    if (marks == null || marks <= 0 || isNaN(+marks)|| marks>100) {
+    if (marks == null || marks <= 0 || isNaN(+marks) || marks > 100) {
         console.log(`Invalid input: ${marks}`);
     }
     else if (marks >= 90) {
-        console.log(`Funtastic Marks :${marks} !!! Your grade is A+`);
+        console.log(`Fantastic Marks :${marks} !!! Your grade is A+`);
     }
     else if (marks >= 75 && marks < 90) {
         console.log(`Excellent Marks :${marks} !!! Your grade is A`);
@@ -13,12 +13,12 @@ function gradeCalculation(marks) {
         console.log(`Good Marks :${marks} !!! Your grade is B`);
     }
     else if (marks >= 35 && marks < 50) {
-            console.log(`Good Marks :${marks} !!! Your grade is C,Need Improvement`);
-        }
-    else{
-console.log(`You are failed in Exam:: ${marks} Better Luck next time`);
-        }
+        console.log(`Good Marks :${marks} !!! Your grade is C,Need Improvement`);
     }
+    else {
+        console.log(`You are failed in Exam:: ${marks} Better Luck next time`);
+    }
+}
 
 
 gradeCalculation(98);

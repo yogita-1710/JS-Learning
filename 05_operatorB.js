@@ -11,21 +11,26 @@ var isEvenorOddNum = function (num) {
      var result = num % 2 == 0 ? `true (given number is even)` : `false (given number is odd)`;
     return result;
 }
-var n1=29;
-var result = isEvenorOddNum(n1);
-console.log(`Return value for ${n1} is ::${result} `);
+// var n1=29;
+// var result = isEvenorOddNum(n1);
+// console.log(`Return value for ${n1} is ::${result} `);
 
-var n2=44;
-var result = isEvenorOddNum(n2); 
-console.log(`Return value for ${n2} is ::${result} `);
+// var n2=44;
+// var result = isEvenorOddNum(n2); 
+// console.log(`Return value for ${n2} is ::${result} `);
 
-var n3=0;
-var result = isEvenorOddNum(n3); 
-console.log(`Return value for ${n3} is ::${result} `);
+// var n3=0;
+// var result = isEvenorOddNum(n3); 
+// console.log(`Return value for ${n3} is ::${result} `);
 
-var n4=101;
-var result = isEvenorOddNum(n4); 
-console.log(`Return value for ${n4} is ::${result} `);
+// var n4=101;
+// var result = isEvenorOddNum(n4); 
+// console.log(`Return value for ${n4} is ::${result} `);
+var arr=[29,44,0,101];
+for (const ele of arr) {
+    var result = isEvenorOddNum(ele); 
+console.log(`Return value for ${ele} is ::${result} `);
+}
 
 console.log("===========step 3============");
 var wordLength = function(word){

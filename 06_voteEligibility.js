@@ -6,9 +6,10 @@ var voteEligible=function(age) {
         console.log(`Not Eligible for Vote: ${age}`);
     }
     else{
-        if (age>18) {
-            console.log(`Eligible for Vote: ${age}`);
-        }
+        console.log(`Eligible for Vote: ${age}`);
+        // if (age>18) {
+        // console.log(`Eligible for Vote: ${age}`);
+        // }
     }
 }
 voteEligible(45);

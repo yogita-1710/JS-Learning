@@ -8,7 +8,7 @@ for (let index = word.length; index>=0; index--) {
     var element = word.charAt(index);
     console.log(element);
 }
-var word = console.log(`==== WAP to count the char a ===`);
+console.log(`==== WAP to count the char a ===`);
 var word = "JavaScript";
 var count = 0;
 for (let index = 0; index<word.length; index++) {
@@ -17,3 +17,4 @@ for (let index = 0; index<word.length; index++) {
         count = count+1;
     }  
 }
+console.log(`char "a" count is ::${count}`);

@@ -5,7 +5,7 @@ function factorialOfNum(num) {
     }
     return fact;
 }
-var numArray = [5, 3, null, 8, undefined, 9, 0];
+var numArray = [5, 3, null, 8, undefined, 9, 0,"true"];
 for (const num of numArray) {
 
     if (num == null || isNaN(+num) || num == 'undefined') {
