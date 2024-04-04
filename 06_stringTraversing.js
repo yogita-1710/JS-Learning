@@ -1,13 +1,17 @@
 var word = "JavaScript";
+
 for (let index = 0; index<word.length; index++) {
     var element = word.charAt(index);
     console.log(element);
 }
 var word = "JavaScript";
+var element="";
 for (let index = word.length; index>=0; index--) {
-    var element = word.charAt(index);
-    console.log(element);
+    var ch = word.charAt(index);
+    element=element+ch;
+    
 }
+console.log(element);
 console.log(`==== WAP to count the char a ===`);
 var word = "JavaScript";
 var count = 0;

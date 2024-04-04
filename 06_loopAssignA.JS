@@ -11,6 +11,7 @@ for (let index = 0; index < newStr.length - 1; index++) {
 }
 console.log(`Total number of Vowels in string is :: ${count}`);
 
+
 console.log(`------second step----`);
 function sumOfCube() {
     var sum = 0;

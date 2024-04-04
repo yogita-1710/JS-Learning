@@ -1,7 +1,7 @@
 let arrayNumbers=[2,4,1,7,9,8];
 console.log(arrayNumbers);
 console.log("-------Total Elements-------");
-// we dont use parenthesis when we are using property e.g length is property
+// we don't use parenthesis when we are using property because length is property
 console.log(`${arrayNumbers.length}`);
 const elementAt0=arrayNumbers[0];
 console.log(`0th element is:${elementAt0}`);
