@@ -5,7 +5,7 @@ let person = {
 }
 
 console.log(person);
-//console.table(person);
+console.table(person);
 
 console.log(`Type of person is: ${typeof person}`);
 console.log(`====== Accessing object properties =========`);
