@@ -14,9 +14,23 @@ class Bank {
         console.log(`Bank Details => Bank Name is:${bank_name},Location is:${location},Account Number is:${account_no}IFSC Code is:${ifsc} and Rate Of Interest is:${interst_rate}`)
     }
 }
-axis_bank = new Bank();
-sbi_bank = new Bank();
-icici_bank = new Bank();
-kotak_bank = new Bank();
-hdfc_bank = new Bank();
-panjab_bank = new Bank();
+axis_bank = new Bank("Axis Bank","Satara",333,"UTIB0000188",3);
+sbi_bank = new Bank("SBI Bank","Pune",666,"SBIN0000454",6);
+icici_bank = new Bank("ICICI Bank","Sangli",999,"ICIC0006533",7);
+kotak_bank = new Bank("Kotak Bank","Solapur",111,"KKBK0002039",8);
+hdfc_bank = new Bank("HDFC Bank","Kolhapur",777,"HDFC0000164",9);
+panjab_bank = new Bank("Punjab Bank","Miraj",555,"PUNB0945800",5);
+
+let set=new Set();
+set.add(axis_bank);
+set.add(sbi_bank);
+set.add(icici_bank);
+set.add(kotak_bank);
+set.add(hdfc_bank);
+set.add(panjab_bank);
+// console.log(set);
+console.log(`Bank name and locations are`);
+for (const key of set) {
+        console.log(`${key.bank_name}:${key.location}`);
+    }   
+

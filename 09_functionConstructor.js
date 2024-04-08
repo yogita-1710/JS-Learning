@@ -3,6 +3,10 @@ function Person(name, city, age){
     this.city = city;
     this.age = age;
 }
+//sample example for prototyping
+// const array = [2, 4, 6, 8];
+// array.push(7);
+// console.log(array);
 Person.prototype.country = "Bharat";
 
 const jenny = new Person("Jenny", "Pune", 23);
@@ -18,6 +22,3 @@ console.log(`${elon.name}, ${elon.city}, ${elon.age}, ${elon.country},`);
 const result = elon instanceof Person;
 console.log(result);
 
-const array = [2, 4, 6, 8];
-array.push(7);
-console.log(array);
