@@ -35,5 +35,6 @@ const personJSON = `
 
 console.log(`======== Convert JSON to Object ===========`);
 const personObject = JSON.parse(personJSON);
+console.log(typeof personJSON);
 console.log(typeof personObject);
 console.log(personObject);
