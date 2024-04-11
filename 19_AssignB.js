@@ -9,12 +9,12 @@ class Employee {
         this.emp_company = emp_company;
     }
 }
-const emp_anil = new Employee(22, "Anil", "IT", 50008, "TCS");
-const emp_radha = new Employee(33, "Radha", 'RR', 74808, "Wipro");
-const emp_rishi = new Employee(55, "Rishi", "Finance", 47080, "TCS");
+const emp_anil = new Employee(22, "Anil", "IT", 50000, "TCS");
+const emp_radha = new Employee(33, "Radha", 'HR', 74000, "Wipro");
+const emp_rishi = new Employee(55, "Rishi", "Finance", 47000, "TCS");
 const emp_sonali = new Employee(66, "Sonali", "Finance", 45000, "Infy");
 const emp_monika = new Employee(77, "Monika", "IT", 40000, "Wipro");
-const emp_viny = new Employee(88, "Vinayak", "IT", 75800, "TCS");
+const emp_viny = new Employee(88, "Vinayak", "IT", 75000, "TCS");
 const emp_mahi = new Employee(99, "Manesh", "HR", 85000, "Infy");
 
 const arrayEmployees=[emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny ,emp_mahi ];
@@ -55,7 +55,8 @@ console.log(`5. Find the emp's whose salary greater than or equal 50000 and from
 log complete emp details on console`);
 arrayEmployees.forEach((person)=>{
     if (person.emp_salary>=50000 && person.emp_dept=="IT") {
-       console.log(` 
+       console.log(person);
+        console.log(` 
        Employee ID :: ${person.emp_id}
        Employee Name  :: ${person.emp_name}
        Employee Department:: ${person.emp_dept}
