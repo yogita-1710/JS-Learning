@@ -1,4 +1,3 @@
-// Define the Employee class
 class Employee {
     constructor(emp_id, emp_name, emp_dept, emp_salary, emp_company) {
         this.emp_id = emp_id;
@@ -8,8 +7,6 @@ class Employee {
         this.emp_company = emp_company;
     }
 }
-
-// Create employee objects
 const emp_anil = new Employee(22, "Anil", "IT", 50000, "TCS");
 const emp_radha = new Employee(33, "Radha", 'HR', 74000, "Wipro");
 const emp_rishi = new Employee(55, "Rishi", "Finance", 47000, "TCS");
@@ -17,14 +14,17 @@ const emp_sonali = new Employee(66, "Sonali", "Finance", 45000, "Infy");
 const emp_monika = new Employee(77, "Monika", "IT", 40000, "Wipro");
 const emp_viny = new Employee(88, "Vinayak", "IT", 75000, "TCS");
 const emp_mahi = new Employee(99, "Manesh", "HR", 85000, "Infy");
-
-// Add all employee objects inside array
-const arrayEmployees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_viny, emp_mahi];
-
-console.log(`2. Sort the 'arrayEmployees' in ascending order of employee department & log Id, dept, & Company`);
-const sorted =arrayEmployees.sort((a,b)=>{
-  return a.emp_dept >b.emp_dept ? 1 : -1;  
-});
-sorted.forEach((element)=>{
-console.log(`ID ::${element.emp_id},Department::${element.emp_dept},Company::${element.emp_company}`);
-});
+const arrayEmps = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_viny, emp_mahi];
+let mapEmployees = new Map();
+mapEmployees.set(22, emp_anil);
+mapEmployees.set(33, emp_radha);
+mapEmployees.set(55, emp_rishi);
+mapEmployees.set(66, emp_sonali);
+mapEmployees.set(77, emp_monika);
+mapEmployees.set(88, emp_viny);
+mapEmployees.set(99, emp_mahi);
+const allKeys = mapEmployees.keys();
+for (const key of allKeys) {
+    let newObj = mapEmployees.get(key);
+    console.log(`${key},Name: ${newObj.emp_name}, Dept: ${newObj.emp_dept}, Company:${newObj.emp_company}, Salary:${newObj.emp_salary}`);
+}

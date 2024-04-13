@@ -1,18 +1,13 @@
 const set = new Set();
-
 set.add(10);
-
 set.add(20);
-
 set.add(30);
-
 set.add(20);
-
 set.add(50);
 
-// console.log(set);
-set.forEach((element)=>{
-    console.log(element);
+//console.log(set);
+set.forEach((element,index,set)=>{
+    console.log(element,index,set);
 });
 
 console.log(`----------------------------------`);
@@ -26,7 +21,8 @@ mapStudentMarks.set("Larry", 84);
 
 mapStudentMarks.set("Ratan", 99); // Adding duplicate Key
 mapStudentMarks.set("Gajanan", 45);   // Adding duplicate value
-console.table(mapStudentMarks);
-mapStudentMarks.forEach((value,key) => {
-    console.log(`${value}:${key}`);
+// console.table(mapStudentMarks);
+mapStudentMarks.forEach((value,key,map) => {
+// console.log(value,key);
+    console.log(key,value);
 });
