@@ -16,7 +16,7 @@ class Employee {
     }
 }
 const emp_anil = new Employee(22, "Anil", "IT", 50000, "TCS");
-const emp_radha = new Employee(33, "Radha", 'RR', 74000, "Wipro");
+const emp_radha = new Employee(33, "Radha", 'HR', 74000, "Wipro");
 const emp_rishi = new Employee(55, "Rishi", "Finance", 47000, "TCS");
 const emp_sonali = new Employee(66, "Sonali", "Finance", 45000, "Infy");
 const emp_monika = new Employee(77, "Monika", "IT", 40000, "Wipro");
